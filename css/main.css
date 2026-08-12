@@ -1,0 +1,16 @@
+:root{
+    --light-green: #0BDB42;
+    --dark-green: #28B34D;
+}
+
+img{
+    width: 100%;
+}
+
+header, footer{
+    background-color: var(--light-green);
+}
+
+nav{
+    background-color: var(--dark-green);
+}
