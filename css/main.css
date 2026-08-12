@@ -1,3 +1,21 @@
 :root {
-    
+    --bs-primary: #0BDB42;
+    --bs-primary-rgb: rgb(11, 219, 66);
+}
+
+h1, .h1{
+    font-size: 2.986rem;
+}
+
+h2, .h2{
+    font-size: 2.488rem;
+}
+
+h3, .h3{
+    font-size: 2.074rem;
+}
+
+body{
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
 }

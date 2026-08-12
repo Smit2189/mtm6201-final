@@ -15,38 +15,44 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="images/logo-plant-palette.svg" alt="">
-        </div>
-
-        <nav class="nav">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="menu.html">Menu</a>
-            <a href="menu.html">Catering</a>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-primary">
+            <a href="index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="images/logo-plant-palette.svg" alt="Plant Palette" width="125">
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Catering</a></li>
+            </ul>
+        </header>
+    </div>
 
     <main>
         <section id="carousel">
-
+            
         </section>
 
         <section id="hours-catering">
-
+            <div class="container">
+                
+            </div>
         </section>
 
         <section id="ingredients-banner">
             <h1>All our Ingredients are Fresh and Locally-Sourced!</h1>
         </section>
 
-        <section id="specials">
-            <div>
-                <div>
-                    <img src="images/Screenshot 2026-08-07 113634.png" alt="">
+        <section id="specials" class="py-5">
+            <div class="container">
+                <div class="row flex-row gx-4">
+                    <div class="col">
+                        <img src="images/Screenshot 2026-08-07 113634.png" alt="">
+                    </div>
 
-                    <div>
+                    <div class="col">
                         <h1>
                             Today's Special
                         </h1>
@@ -57,16 +63,17 @@
 
                         <p>
                             Fettuccine tossed in a rich cashew cream sauce, mixed with seasonal vegetables like zucchini
-                            and
-                            spinach.
+                            and spinach.
                         </p>
                     </div>
                 </div>
 
-                <div>
-                    <img src="images/Screenshot 2026-08-07 113843.png" alt="">
+                <div class="row flex-row-reverse gx-4">
+                    <div class="col">
+                        <img src="images/Screenshot 2026-08-07 113843.png" alt="">
+                    </div>
 
-                    <div>
+                    <div class="col">
                         <h1>
                             Today's Special
                         </h1>
@@ -82,10 +89,12 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="images/Screenshot 2026-08-07 113952.png" alt="">
+                <div class="row flex-row gx-4">
+                    <div class="col">
+                        <img src="images/Screenshot 2026-08-07 113952.png" alt="">
+                    </div>
 
-                    <div>
+                    <div class="col">
                         <h1>
                             Today's Special
                         </h1>
@@ -104,33 +113,33 @@
         </section>
     </main>
 
-    <footer>
-        <div>
-            <div>
-                <ul>
-                    <li>hello@plantpaletterestaurant.ca</li>
-                    <li>613-588-2300</li>
-                    <li>70 Marché Way, Ottawa, ON K1S 5J3</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Check out our socials!</h3>
-
-                <div>
-                    <img src="images/social logos/logo.svg" alt="">
-                    <img src="images/social logos/Bluesky_Logo.svg" alt="">
-                    <img src="images/social logos/Instagram_logo_2022.svg" alt="">
-                    <img src="images/social logos/2023_Facebook_icon.svg" alt="">
-                    <img src="images/social logos/Tiktok_icon.svg" alt="">
-                </div>
-            </div>
-
-            <div>
-                <p>Copyright©2026 Plant Palette Ltd.</p>
-            </div>
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+            <a href="index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="images/logo-plant-palette.svg" alt="Plant Palette" width="300">
+            </a>
+            <p class="text-body-secondary">© 2026 Plant Palette Ltd.</p>
         </div>
-            
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+            <h5>Contact Us</h5>
+            <ul class="nav flex-column">
+                <li class="mb-2">hello@plantpaletterestaurant.ca</li>
+                <li class="mb-2">613-588-2300</li>
+                <li class="mb-2">70 Marché Way, Ottawa, ON K1S 5J3</li>
+            </ul>
+        </div>
+        <div class="col mb-3">
+            <h5>Find us on</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="https://x.com" class="nav-link p-0 text-body-secondary">Twitter/X</a></li>
+                <li class="nav-item mb-2"><a href="https://bsky.app" class="nav-link p-0 text-body-secondary">Bluesky</a></li>
+                <li class="nav-item mb-2"><a href="https://instagram.com" class="nav-link p-0 text-body-secondary">Instagram</a></li>
+                <li class="nav-item mb-2"><a href="https://facebook.com" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                <li class="nav-item mb-2"><a href="https://tiktok.com" class="nav-link p-0 text-body-secondary">TikTok</a></li>
+            </ul>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
