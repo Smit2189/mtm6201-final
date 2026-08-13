@@ -15,29 +15,41 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-primary">
+    <div class="container-fluid">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="index.html"
                 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                 <img src="images/logo-plant-palette.svg" alt="Plant Palette" width="125">
             </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-                <li class="nav-item"><a href="menu.html" class="nav-link">Catering</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <button
+                        class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample04" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="menu.html">Menu</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="menu.html">Catering</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
     </div>
 
     <main>
         <section id="carousel">
-            
+
         </section>
 
         <section id="hours-catering">
             <div class="container">
-                
+
             </div>
         </section>
 
@@ -116,10 +128,10 @@
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div class="col mb-3">
             <a href="index.html"
-                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                class="d-flex align-items-center ms-3 mb-3 me-auto link-body-emphasis text-decoration-none">
                 <img src="images/logo-plant-palette.svg" alt="Plant Palette" width="300">
             </a>
-            <p class="text-body-secondary">© 2026 Plant Palette Ltd.</p>
+            <p class="text-body-secondary ms-3">© 2026 Plant Palette Ltd.</p>
         </div>
         <div class="col mb-3"></div>
         <div class="col mb-3">
