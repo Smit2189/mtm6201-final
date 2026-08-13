@@ -16,22 +16,21 @@
 
 <body>
     <div class="container-fluid">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-primary">
             <a href="index.html"
-                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <img src="images/logo-plant-palette.svg" alt="Plant Palette" width="125">
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none col-sm-3 col-md-2 col-lg-1">
+                <img src="images/logo-plant-palette.svg" alt="Plant Palette">
             </a>
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid">
-                    <button
-                        class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarsExample04" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarsExample04">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
+                            <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                                    href="index.html">Home</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="menu.html">Menu</a> </li>
                             <li class="nav-item"> <a class="nav-link" href="menu.html">Catering</a> </li>
@@ -48,28 +47,37 @@
         </section>
 
         <section id="hours-catering">
-            <div class="container">
-
+            <div class="container d-flex flex-row">
+                <div class="">
+                    <button class="btn btn-secondary">a</button>
+                </div>
             </div>
         </section>
 
-        <section id="ingredients-banner">
-            <h1>All our Ingredients are Fresh and Locally-Sourced!</h1>
+        <section id="ingredients-banner" class="py-5 text-white">
+            <div class="container">
+                <h1 class="my-5 text-center">All our Ingredients are Fresh and Locally-Sourced!</h1>
+                <div class="">
+                    <a href="about.html#sourcing" class="justify-content-center">
+                        <button class="btn btn-primary btn-lg display-3" type="button">Read More here</button>
+                    </a>
+                </div>
+            </div>
         </section>
 
-        <section id="specials" class="py-5">
+        <section id="specials" class="py-5 text-center">
             <div class="container">
-                <div class="row flex-row gx-4">
+                <div class="row flex-row gx-4 align-items-center">
                     <div class="col">
                         <img src="images/Screenshot 2026-08-07 113634.png" alt="">
                     </div>
 
                     <div class="col">
-                        <h1>
+                        <h1 class="pb-5">
                             Today's Special
                         </h1>
 
-                        <h2>
+                        <h2 class="pb-3">
                             Creamy Cashew Alfredo Pasta
                         </h2>
 
@@ -80,17 +88,17 @@
                     </div>
                 </div>
 
-                <div class="row flex-row-reverse gx-4">
+                <div class="row flex-row-reverse gx-4 align-items-center">
                     <div class="col">
                         <img src="images/Screenshot 2026-08-07 113843.png" alt="">
                     </div>
 
                     <div class="col">
-                        <h1>
+                        <h1 class="pb-5">
                             Today's Special
                         </h1>
 
-                        <h2>
+                        <h2 class="pb-3">
                             Plant Palette Burger
                         </h2>
 
@@ -101,17 +109,17 @@
                     </div>
                 </div>
 
-                <div class="row flex-row gx-4">
+                <div class="row flex-row gx-4 align-items-center">
                     <div class="col">
                         <img src="images/Screenshot 2026-08-07 113952.png" alt="">
                     </div>
 
                     <div class="col">
-                        <h1>
+                        <h1 class="pb-5">
                             Today's Special
                         </h1>
 
-                        <h2>
+                        <h2 class="pb-3">
                             Roasted Cauliflower Steak
                         </h2>
 
@@ -139,17 +147,23 @@
             <ul class="nav flex-column">
                 <li class="mb-2">hello@plantpaletterestaurant.ca</li>
                 <li class="mb-2">613-588-2300</li>
-                <li class="mb-2">70 Marché Way, Ottawa, ON K1S 5J3</li>
+                <li class="mb-2">70 Marché Way, Ottawa, ON</li>
             </ul>
         </div>
+        <div class="col mb-3"></div>
         <div class="col mb-3">
             <h5>Find us on</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="https://x.com" class="nav-link p-0 text-body-secondary">Twitter/X</a></li>
-                <li class="nav-item mb-2"><a href="https://bsky.app" class="nav-link p-0 text-body-secondary">Bluesky</a></li>
-                <li class="nav-item mb-2"><a href="https://instagram.com" class="nav-link p-0 text-body-secondary">Instagram</a></li>
-                <li class="nav-item mb-2"><a href="https://facebook.com" class="nav-link p-0 text-body-secondary">Facebook</a></li>
-                <li class="nav-item mb-2"><a href="https://tiktok.com" class="nav-link p-0 text-body-secondary">TikTok</a></li>
+                <li class="nav-item mb-2"><a href="https://x.com" class="nav-link p-0 text-body-secondary">Twitter/X</a>
+                </li>
+                <li class="nav-item mb-2"><a href="https://bsky.app"
+                        class="nav-link p-0 text-body-secondary">Bluesky</a></li>
+                <li class="nav-item mb-2"><a href="https://instagram.com"
+                        class="nav-link p-0 text-body-secondary">Instagram</a></li>
+                <li class="nav-item mb-2"><a href="https://facebook.com"
+                        class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                <li class="nav-item mb-2"><a href="https://tiktok.com"
+                        class="nav-link p-0 text-body-secondary">TikTok</a></li>
             </ul>
         </div>
     </footer>

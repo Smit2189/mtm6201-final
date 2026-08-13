@@ -3,8 +3,25 @@
     --bs-primary-rgb: rgb(11, 219, 66);
 }
 
+#ingredients-banner{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), 
+    url('../images/congerdesign-vegetables-752153_1920.jpg');
+
+    background-position: 0% 36%;
+}
+
+#top-banner{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), 
+    url('../images/pexels-outdoor-dining-1846137_1920.jpg');
+
+    background-position: 0% 50%;
+}
+
 h1, .h1{
     font-size: 2.986rem;
+    font-weight: bold;
 }
 
 h2, .h2{
@@ -18,4 +35,8 @@ h3, .h3{
 body{
     font-family: "El Messiri", sans-serif;
     font-size: 20px;
+}
+
+img{
+    width: 100%;
 }

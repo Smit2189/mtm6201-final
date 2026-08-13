@@ -15,81 +15,109 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom bg-primary">
+    <div class="container-fluid">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="index.html"
-                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                <img src="images/logo-plant-palette.svg" alt="Plant Palette" width="125">
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none col-1">
+                <img src="images/logo-plant-palette.svg" alt="Plant Palette">
             </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
-                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-                <li class="nav-item"><a href="menu.html" class="nav-link">Catering</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+                            <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                                    href="about.html">About</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="menu.html">Menu</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="menu.html">Catering</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
     </div>
 
     <main>
-        <section id="top-banner">
-            <h1>About</h1>
+        <section id="top-banner" class="text-white py-4">
+            <div class="container text-center py-5">
+                <h1>About</h1>
+            </div>
         </section>
 
-        <section id="history">
-            <div>
-                <div>
-                    <p>
-                        Plant Palette began as a dream to create a vibrant space where people could enjoy delicious,
-                        plant-based food while being educated about the health benefits of a vegan lifestyle. After
-                        years of
-                        working in the culinary industry, I, Tom (the owner), felt a strong pull to start a restaurant
-                        that
-                        not only serves meals but also fosters community connections centered around healthy eating and
-                        environmental awareness.
-                    </p>
-                </div>
+        <section id="history" class="my-5 text-center">
+            <div class="container">
+                <div class="row row-cols-2 align-items-center">
+                    <div class="col">
+                        <h1>History</h1>
+                        <p>
+                            Plant Palette began as a dream to create a vibrant space where people could enjoy delicious,
+                            plant-based food while being educated about the health benefits of a vegan lifestyle. After
+                            years of
+                            working in the culinary industry, I, Tom (the owner), felt a strong pull to start a
+                            restaurant
+                            that
+                            not only serves meals but also fosters community connections centered around healthy eating
+                            and
+                            environmental awareness.
+                        </p>
+                    </div>
 
-                <div>
-                    <img src="images/pexels-outdoor-dining-1846137_1920.jpg" alt="">
+                    <div class="col">
+                        <img src="images/pexels-outdoor-dining-1846137_1920.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="mission">
-            <div>
-                <div>
-                    <p>
-                        From the beginning, the goal was to create a welcoming atmosphere where diners can not only
-                        indulge
-                        in amazing food but also learn about the ingredients they’re consuming. We dedicate time to
-                        train
-                        our staff not just in culinary skills, but also in the philosophy of our restaurant. This rich
-                        history and commitment to our values is something we want to showcase on our website, complete
-                        with
-                        stories about our farmers, customer experiences, and the inspiration behind our dishes.
-                    </p>
-                </div>
+        <section id="mission" class="my-5 text-center">
+            <div class="container">
+                <div class="row row-cols-2 flex-row-reverse align-items-center">
+                    <div>
+                        <h1>Our Mission</h1>
+                        <p>
+                            From the beginning, the goal was to create a welcoming atmosphere where diners can not only
+                            indulge
+                            in amazing food but also learn about the ingredients they’re consuming. We dedicate time to
+                            train
+                            our staff not just in culinary skills, but also in the philosophy of our restaurant. This
+                            rich
+                            history and commitment to our values is something we want to showcase on our website,
+                            complete
+                            with
+                            stories about our farmers, customer experiences, and the inspiration behind our dishes.
+                        </p>
+                    </div>
 
-                <div>
-                    <img src="images/yamu_jay-friends-selfie-9129598.jpg" alt="">
+                    <div>
+                        <img src="images/yamu_jay-friends-selfie-9129598.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="sourcing">
-            <div>
-                <div>
-                    <p>
-                        At Plant Palette, we prioritize sustainability and support our local farming community. All our
-                        ingredients are sourced from reputable local farms that practice organic and ethical
-                        agricultural
-                        methods. We believe in transparency and connecting our customers with the source of their food,
-                        creating an enriching dining experience that celebrates the bounty of our region.
-                    </p>
-                </div>
+        <section id="sourcing" class="my-5 text-center">
+            <div class="container">
+                <div class="row row-cols-2 align-items-center">
+                    <div>
+                        <h1>Commitment to Sourcing</h1>
+                        <p>
+                            At Plant Palette, we prioritize sustainability and support our local farming community. All
+                            our
+                            ingredients are sourced from reputable local farms that practice organic and ethical
+                            agricultural
+                            methods. We believe in transparency and connecting our customers with the source of their
+                            food,
+                            creating an enriching dining experience that celebrates the bounty of our region.
+                        </p>
+                    </div>
 
-                <div>
-                    <img src="images/tieubaotruong-chilli-9202873_1920.jpg" alt="">
+                    <div>
+                        <img src="images/tieubaotruong-chilli-9202873_1920.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -115,11 +143,16 @@
         <div class="col mb-3">
             <h5>Find us on</h5>
             <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="https://x.com" class="nav-link p-0 text-body-secondary">Twitter/X</a></li>
-                <li class="nav-item mb-2"><a href="https://bsky.app" class="nav-link p-0 text-body-secondary">Bluesky</a></li>
-                <li class="nav-item mb-2"><a href="https://instagram.com" class="nav-link p-0 text-body-secondary">Instagram</a></li>
-                <li class="nav-item mb-2"><a href="https://facebook.com" class="nav-link p-0 text-body-secondary">Facebook</a></li>
-                <li class="nav-item mb-2"><a href="https://tiktok.com" class="nav-link p-0 text-body-secondary">TikTok</a></li>
+                <li class="nav-item mb-2"><a href="https://x.com" class="nav-link p-0 text-body-secondary">Twitter/X</a>
+                </li>
+                <li class="nav-item mb-2"><a href="https://bsky.app"
+                        class="nav-link p-0 text-body-secondary">Bluesky</a></li>
+                <li class="nav-item mb-2"><a href="https://instagram.com"
+                        class="nav-link p-0 text-body-secondary">Instagram</a></li>
+                <li class="nav-item mb-2"><a href="https://facebook.com"
+                        class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                <li class="nav-item mb-2"><a href="https://tiktok.com"
+                        class="nav-link p-0 text-body-secondary">TikTok</a></li>
             </ul>
         </div>
     </footer>
